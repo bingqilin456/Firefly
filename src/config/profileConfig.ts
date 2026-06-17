@@ -1,4 +1,5 @@
 import type { ProfileConfig } from "../types/profileConfig";
+
 export const profileConfig: ProfileConfig = {
 	// 头像
 	// 图片路径支持三种格式：
@@ -19,21 +20,17 @@ export const profileConfig: ProfileConfig = {
 	// 如果想使用尚未包含相应的图标集，则需要安装它
 	// `pnpm add @iconify-json/<icon-set-name>`
 	// showName: true 时显示图标和名称，false 时只显示图标
-
-
 	links: [
 		{
-			// url: "http://localhost:4322/_image/qq-link.jpg",
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "assets/images/avatar.jpg",
+			url: "https://3566165112.qzone.qq.com",
 			showName: false,
-
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/bingqilin456",
 			showName: false,
 		},
 		{
